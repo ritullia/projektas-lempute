@@ -35,20 +35,23 @@ body {
     background-color: #ff5599;
     animation-name: blink;
     animation-iteration-count: infinite;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 @keyframes blink {
     0% {
         background-color: #ff5599;
+        box-shadow: 0 20px 70px 8px #ff5599;
         opacity: 1;
     }
     50% {
         background-color: #3369ff;
+        box-shadow: 0 20px 70px 8px #3369ff;
         opacity: 1;
     }
     100% {
         background-color: #ff6611;
+        box-shadow: 0 20px 70px 8px #ff6611;
         opacity: 1;
     }
 }
