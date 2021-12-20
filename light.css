@@ -1,0 +1,10 @@
+.light {
+    font-size: 1.3px;
+    display: inline-block;
+    width: 26em;
+    height: 40em;
+    text-align: center;
+    border: 2.5em solid #fff;
+    border-radius: 13em;
+    background-color: aqua;
+}
